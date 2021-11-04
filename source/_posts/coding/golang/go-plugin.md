@@ -72,3 +72,24 @@ func main() {
 4.插件加载之后无法卸载
 
 这些问题短时间内好像官方也没有解决的意思，或者说无法解决。总之，Go plugin目前的应用很少，毕竟作为网络编程语言，在容器化大行其道的环境下，更新程序是一件很轻松的事情，除非有特殊需要。
+
+## 3.隐藏的坑
+```go
+// Open opens a Go plugin.
+// If a path has already been opened, then the existing *Plugin is returned.
+// It is safe for concurrent use by multiple goroutines.
+func Open(path string) (*Plugin, error) {
+    return open(path)
+}
+```
+注意上面这段注释：如果一个路径已经被打开，那么将会返回一个已存在的插件。
+
+这是啥意思呢？
+
+假设你的服务是一个常驻进程，会定时的检测插件是否更新，如果有更新的话就拉取新的插件到指定目录，然后加载插件。
+
+以上的想法很美好，但是你会发现其实插件压根没更新，你用的还是老的插件，虽然那个so文件已经是最新的了，但是Golang并不会加载新的插件。
+
+因为它只认路径，换句话说就是文件名，所以如果的插件需要更新，务必在文件名上面带上版本号，换句话说，在一个进程内，插件只能新增，不能更新，除非你的服务重启。
+
+这个确实非常不方便，究其原因，可能是官方压根不上心吧！
