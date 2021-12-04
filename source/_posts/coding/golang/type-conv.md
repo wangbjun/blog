@@ -7,8 +7,6 @@ category: Golang
 ---
 在使用Golang做业务的时候经常遇到各个类型之间的转换，今天就稍微总结一下常见类型之间的转换方式，主要是int、string、float64、[]byte这几个类型。
 
-<!--more-->
-
 ## 1.int和string互转
 这个用的还是比较多的，特别是在Web开发的时候，前端传值一般都是string居多，转换主要使用一个库```strconv```来操作：
 
@@ -27,6 +25,8 @@ func IntToString(i int) string {
     return strconv.Itoa(i)
 }
 ```
+<!--more-->
+
 很多人在转string的时候喜欢用```fmt.Sprintf("%d", i)```，结果一样。
 
 至于int和int64之间的互转，直接```int64(i)```这种写法就可以了，但是可能会存在一个精度丢失，但是Go的int会根据不同的系统架构自动变化，在64位机器上就是int64，所以一般情况下这么转没问题。

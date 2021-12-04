@@ -114,5 +114,5 @@ deploy:
     pass:
     remotePath: /opt/blog
     port: 22
-    privateKey: /home/jwang/.ssh/id_rsa
+    privateKey: /Users/jwang/.ssh/id_rsa
     concurrency: 10
