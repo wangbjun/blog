@@ -1,7 +1,7 @@
 ---
 title: Google Earth 代理配置（linux proxychains）
 date: 2021-01-06 14:00:00
-category: Linux
+category: OS
 tags: 
     - Linux
     - Google

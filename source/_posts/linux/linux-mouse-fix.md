@@ -1,7 +1,7 @@
 ---
 title: 解决Linux下鼠标灵敏度问题
 date: 2021-06-07 22:04:02
-category: Linux
+category: OS
 tags: 
     - Ubuntu
 ---

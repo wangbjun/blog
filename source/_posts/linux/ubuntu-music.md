@@ -1,7 +1,7 @@
 ---
 title: Ubuntu命令行下打造一个音乐闹钟
 date: 2015-03-07 19:01:09
-category: Linux
+category: OS
 tags: 
     - Ubuntu
 ---

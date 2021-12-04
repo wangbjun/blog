@@ -2,7 +2,7 @@
 title: 你是否真的需要使用Linux？
 date: 2020-02-10 09:52:44
 tags: Linux
-category: Linux
+category: OS
 keywords: Linux,Ubuntu,操作系统
 ---
 

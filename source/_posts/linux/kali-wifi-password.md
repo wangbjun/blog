@@ -1,7 +1,7 @@
 ---
 title: Kali系统下WiFi密码破解
 date: 2015-11-01 11:01:00
-category: Linux
+category: OS
 tags: 
     - Kali
 ---

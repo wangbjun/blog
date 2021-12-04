@@ -1,7 +1,7 @@
 ---
 title: Linux下挂载NTFS硬盘和Samba共享
 date: 2018-12-02 11:05:00
-category: Linux
+category: OS
 tags: 
     - Linux
     - Samba

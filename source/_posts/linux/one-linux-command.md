@@ -1,7 +1,7 @@
 ---
 title: 一条Linux命令
 date: 2018-06-08 15:01:06
-category: Linux
+category: OS
 tags: Linux
 ---
 

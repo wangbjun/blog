@@ -1,7 +1,7 @@
 ---
 title: Ubuntu Nautilus隐藏文件(夹)
 date: 2020-03-15 18:57:06
-category: Linux
+category: OS
 tags: 
     - Ubuntu
     - Linux

@@ -1,7 +1,7 @@
 ---
 title: Linux系统自定义Shell命令
 date: 2015-10-05 11:05:00
-category: Linux
+category: OS
 tags: 
     - Linux
 ---

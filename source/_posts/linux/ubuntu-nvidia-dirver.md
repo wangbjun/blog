@@ -1,7 +1,7 @@
 ---
 title: Ubuntu 下nvidia显卡驱动安装
 date: 2019-07-01 12:11:09
-category: Linux
+category: OS
 tags: 
     - Ubuntu
 ---

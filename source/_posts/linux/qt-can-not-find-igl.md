@@ -1,7 +1,7 @@
 ---
 title: Qt-运行-cant't-find-lGL
 date: 2018-09-03 13:22:00
-category: Linux
+category: OS
 tags: 
     - QT
 ---

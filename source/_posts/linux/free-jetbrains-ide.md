@@ -1,7 +1,7 @@
 ---
 title: 如何免费使用Jetbrains的IDE（GoLand、PhpStorm、WebStorm）
 date: 2020-12-31 13:01:02
-category: Linux
+category: OS
 tags: 
     - Jetbrains
     - Goland

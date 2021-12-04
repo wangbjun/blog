@@ -1,7 +1,7 @@
 ---
 title: 闲谈Linux桌面系统下常用工具
 date: 2018-12-08 10:03:09
-category: Linux
+category: OS
 tags: 
     - Linux
 ---

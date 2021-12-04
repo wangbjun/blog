@@ -1,7 +1,7 @@
 ---
 title: Nginx Log日志统计分析常用命令
 date: 2018-02-03 13:22:00
-category: Linux
+category: OS
 tags: 
     - Nginx
 ---

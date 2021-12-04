@@ -1,7 +1,7 @@
 ---
 title: 自建梯子访问Google等学术网站
 date: 2018-12-09 08:01:02
-category: Linux
+category: OS
 tags: 
     - Google
 ---

@@ -1,7 +1,7 @@
 ---
 title: Kali-Metasploit制作简易木马
 date: 2015-08-05 12:01:00
-category: Linux
+category: OS
 tags: 
     - Kali
 ---

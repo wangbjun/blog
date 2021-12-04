@@ -1,7 +1,7 @@
 ---
 title: Ubuntu休眠后屏幕缩放恢复
 date: 2021-06-20 11:33:10
-category: Linux
+category: OS
 tags: 
     - Ubuntu
 ---

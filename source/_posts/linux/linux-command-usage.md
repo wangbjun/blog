@@ -1,7 +1,7 @@
 ---
 title: Linux常用命令和工具
 date: 2016-11-02 14:01:00
-category: Linux
+category: OS
 tags: 
     - Linux
 ---

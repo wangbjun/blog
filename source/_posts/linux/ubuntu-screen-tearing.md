@@ -1,7 +1,7 @@
 ---
 title: Ubuntu屏幕撕裂问题
 date: 2021-07-06 21:03:00
-category: Linux
+category: OS
 tags: 
     - Ubuntu
 ---
