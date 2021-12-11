@@ -111,7 +111,7 @@ deploy:
   - type: sftp
     host: 47.94.21.57
     user: root
-    pass:k
+    pass:
     remotePath: /opt/blog
     port: 22
     privateKey: /home/jwang/.ssh/id_rsa
