@@ -2,8 +2,9 @@
 title: Ubuntu休眠后屏幕缩放恢复
 date: 2021-06-20 11:33:10
 category: OS
-tags: 
-    - Ubuntu
+tags:
+  - Linux
+  - Ubuntu
 ---
 现在很多人都使用高分屏，比如2k、4k的显示器，在Ubuntu上面一般都需要设置缩放比率，之前我写过一篇文章介绍过 [Ubuntu 4K显示器缩放设置](https://wangbjun.site/2019/linux/ubuntu-4k-scale.html)
 

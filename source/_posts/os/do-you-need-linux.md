@@ -1,9 +1,10 @@
 ---
 title: 你是否真的需要使用Linux？
 date: 2020-02-10 09:52:44
-tags: Linux
 category: OS
-keywords: Linux,Ubuntu,操作系统
+tags: 
+    - Linux
+    - Ubuntu
 ---
 
 自从跨入IT编程行业一直都在使用Linux桌面系统办公（尝试过挺多发行版，最终选择Ubuntu），平时生活也在用，不知不觉已经4年多了，也安利了身边很多人使用Linux，从最早的疯狂折腾到现在追求稳定，其实也颇有感触，闲来无事聊一聊。

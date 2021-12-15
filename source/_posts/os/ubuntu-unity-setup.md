@@ -1,7 +1,9 @@
 ---
 title: ubuntu unity桌面设置攻略
 date: 2021-12-11 12:00:00
-tags: Linux
+tags: 
+- Linux
+- Ubuntu
 category: OS
 keywords: Linux,Ubuntu,操作系统
 ---

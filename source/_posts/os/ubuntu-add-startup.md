@@ -1,7 +1,9 @@
 ---
 title: ubuntu添加开机启动
 date: 2021-12-13 20:30:00
-tags: Linux
+tags:
+- Linux
+- Ubuntu
 category: OS
 keywords: Linux,Ubuntu,开机自启
 ---

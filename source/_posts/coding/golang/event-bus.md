@@ -1,7 +1,7 @@
 ---
 title: Golang事件系统Event Bus
 date: 2021-06-18 00:58:03
-tags: 事件
+tags: Golang
 category: Golang
 ---
 最近在学习开源项目```Grafana```的代码，发现作者实现了一个事件总线的机制，在项目里面大量应用，效果也非常好，代码也比较简单，介绍给大家看看。

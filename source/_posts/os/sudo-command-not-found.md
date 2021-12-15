@@ -3,7 +3,8 @@ title: 解决sudo command not found 报错
 date: 2019-06-02 11:29:06
 category: OS
 tags: 
-    - Sudo
+    - Linux
+    - Ubuntu
 ---
 
 偶尔发现的一个问题，平时主要使用 **Ubuntu** 操作系统，有时候安装一些软件会用加一些自定义PATH，往往为了方便都会把配置写到  **/etc/environment** 里面,这样所有用户包括root都有效：

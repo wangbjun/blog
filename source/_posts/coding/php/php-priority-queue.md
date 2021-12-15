@@ -4,7 +4,6 @@ date: 2017-06-05 15:00:00
 category: PHP
 tags: 
     - PHP
-    - Queue
 ---
 
 ## 1.什么是优先队列？

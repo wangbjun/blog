@@ -1,7 +1,9 @@
 ---
 title: ubuntu unity桌面常见应用
 date: 2021-12-11 18:00:00
-tags: Linux
+tags: 
+- Linux
+- Ubuntu
 category: OS
 keywords: Linux,Ubuntu,操作系统
 ---

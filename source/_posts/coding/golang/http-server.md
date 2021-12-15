@@ -3,7 +3,6 @@ title: Golang的HttpServer解析
 date: 2020-06-07 22:00:00
 tags: 
 - Golang
-- Http
 category: Golang
 ---
 Golang之所以非常适合用于网络编程的原因之一就是其自带网络库可以非常简单快速的建立一个基于http或者tcp的服务应用，以http服务为例，只需几行代码：

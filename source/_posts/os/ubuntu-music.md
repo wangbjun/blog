@@ -4,6 +4,7 @@ date: 2015-03-07 19:01:09
 category: OS
 tags: 
     - Ubuntu
+    - Linux
 ---
 
 ### 一.命令行播放音乐

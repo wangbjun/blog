@@ -1,7 +1,7 @@
 ---
 title: 变量名存放在哪里？
 date: 2018-06-07 17:08:41
-tags: 变量名
+tags: 编程
 category: Coding
 ---
 

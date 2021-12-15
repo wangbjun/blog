@@ -1,7 +1,7 @@
 ---
 title: 如何高效的学习编程？
 date: 2020-03-03 12:48:37
-tags: 学习
+tags: 编程
 category: Life
 keywords: 编程,学习
 ---

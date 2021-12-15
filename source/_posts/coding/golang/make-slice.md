@@ -3,7 +3,7 @@ title: Golang里面slice初始化的坑
 date: 2020-06-06 23:42:22
 tags: 
 - Golang
-- Slice
+- 编程
 category: Golang
 ---
 相信很多人对Golang里面的数组都不陌生，但实际上99%的场景我们使用的都是slice，原因很简单，Go里面的数组类似C数组长度是固定的，局限太多，而slice则是一个变长的数组，可以自动扩容，类似JS、PHP等弱类型语言里面的数组。

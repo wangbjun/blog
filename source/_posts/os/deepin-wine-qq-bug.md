@@ -2,8 +2,7 @@
 title: 解决Deepin-Wine-QQ或微信图标Bug
 date: 2018-12-01 12:11:08
 category: OS
-tags: 
-    - Deepin-Wine
+tags: linux
 ---
 
 之前写过一篇文章说在Linux下面使用deepin的wine QQ和微信, 虽然这个版本挺好用，但是一直以来有个bug困扰我：QQ和微信的图标都是wine的小图标，一模一样不说，还重叠在一起，当你使用 **ctrl+tab** 切换应用的时候很头疼，用过的人应该生有感受！

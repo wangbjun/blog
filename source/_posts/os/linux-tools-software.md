@@ -4,6 +4,7 @@ date: 2018-12-08 10:03:09
 category: OS
 tags: 
     - Linux
+    - Ubuntu
 ---
 
 ## 前言

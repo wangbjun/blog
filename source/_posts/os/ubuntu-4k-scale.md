@@ -2,8 +2,9 @@
 title: Ubuntu 4K显示器缩放设置
 date: 2019-05-03 12:21:06
 category: OS
-tags: 
-    - Ubuntu
+tags:
+- Linux
+- Ubuntu
 ---
 
 ![](https://wangbjun.site/images/old/16d0f0f03263cb7b.jpg)
