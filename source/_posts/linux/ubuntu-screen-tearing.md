@@ -15,25 +15,21 @@ Linux下的显示画面撕裂（Tearing）问题由来已久，如果你观察�
 
 在Ubuntu系统下，分2种情况下：
 
-如果你是独显，比如Nvidia显卡，可以在设置面板里面勾选垂直同步选项，实际上这个效果并不明显。
+如果你是独显，比如Nvidia显卡，可以在英伟达控制面板里面勾选垂直同步选项，实际上这个效果并不明显，其实我也不知道为什么。
 
-后来，我换上了Intel集显，找到了一个非常有效的方式，打开 **/etc/X11/xorg.conf** 文件，这个文件是自动生成的，系统应该都有。
+后来，我找到了一个非常有效的方式，打开 **/etc/X11/xorg.conf** 文件，这个文件在老版本的Ubuntu里面是自动生成的，新的版可能并没有，但是我们可以手动生成，通过下面的方式：
 
-其实内容大概如下：
+按下快捷键 Ctrl+Alt+F1 进入终端模式
 ```
-...
+sudo service lightdm stop //关闭图形界面
+sudo Xorg -configure //生成配置，默认位置是 ~/xorg.conf.new
+sudo service lightdm start
+mv ~/xorg.conf.new /etc/X11/xorg.conf //把生成的配置复制到对应位置
+```
+
+整个配置文件内容比较多，具体啥意思我也没去细究，但是其中有一块我们需要改，内容大概如下：
+```
 Section "Device"
-        ### Available Driver options are:-
-        ### Values: <i>: integer, <f>: float, <bool>: "True"/"False",
-        ### <string>: "String", <freq>: "<f> Hz/kHz/MHz",
-        ### <percent>: "<f>%"
-        ### [arg]: arg optional
-        #Option     "Accel"              	# [<bool>]
-        #Option     "AccelMethod"        	# <str>
-        #Option     "Backlight"          	# <str>
-        #Option     "CustomEDID"         	# <str>
-        #Option     "DRI"                	# <str>
-        #Option     "Present"            	# [<bool>]
         #Option     "ColorKey"           	# <i>
         #Option     "VideoKey"           	# <i>
         #Option     "Tiling"             	# [<bool>]
@@ -60,8 +56,9 @@ Section "Device"
     Driver      "intel"
     BusID       "PCI:0:2:0"
 EndSection
-...
 ```
-这里只截取部分片段，其中关键就是Option字段的配置，可以看到这里其实有很多选项，默认情况下都是注释掉的，但是有2个选项我打开了，分别是VSync、TearFree，设置为True。
+这里只截取部分片段，其中关键就是Option字段的配置，可以看到这里其实有很多选项，默认情况下都是注释掉的，但有2个选项我打开了，分别是VSync、TearFree，设置为True即可。
 
-然后重启就会发现画面撕裂问题解决了，至少在我的CPU 8700k的集显下，带动4k显示器没问题，非常流畅，但是为什么这个配置默认被注释掉也是很奇怪，必然有原因的，个人感觉可能影响屏幕画面响应速度，总之，在我电脑上我感觉没啥问题，如果你对画面撕裂问题不可接受，不妨设置一下试试。
+然后重启就会发现画面撕裂问题解决了，至少在我的CPU 8700k的集显下，带动4k显示器没问题，非常流畅，但是为什么这个配置默认被注释掉也是很奇怪，必然有原因的，我Google了一下这个问题，发现有文章提到打开会使用更多的内存、增加响应延迟，没毛病和我想的一样，在Windows下很多游戏都有“垂直同步”这个设置选项，打开的话会锁60帧，显卡负载会低一点，但是显示响应会慢一点，虽然可能是毫秒级别，但对于很多fps游戏很致命。
+
+总之，在我电脑上我感觉没啥问题，如果你经常看视频，对画面撕裂问题接受不了，不妨设置一下试试。
