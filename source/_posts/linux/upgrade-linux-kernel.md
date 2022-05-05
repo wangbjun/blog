@@ -1,5 +1,5 @@
 ---
-title: Ubuntu下升级Linux内核版本
+title: 升级Ubuntu的Linux内核版本
 date: 2022-03-19 13:00:00
 category: Linux
 tags: 
