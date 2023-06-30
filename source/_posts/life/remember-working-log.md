@@ -1,6 +1,6 @@
 ---
 title: 那些年，那些事
-date: 2022-06--3 23:59:59
+date: 2022-06-03 23:59:59
 tags: Life
 category: Life
 ---
