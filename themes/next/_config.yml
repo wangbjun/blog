@@ -294,8 +294,8 @@ font:
 
   # Font settings for <code> and code blocks.
   codes:
-    external: false
-    family: monospace
+    external: true
+    family:
     size:
 
 
