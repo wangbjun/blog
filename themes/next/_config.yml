@@ -339,8 +339,8 @@ changyan:
 # gitalk
 gitalk:
   enable: true
-  ClientID: b94f36f069c28f87fa4a
-  ClientSecret: da201f100e9a71ac417a8a359006d26ffa0216f5
+  ClientID:
+  ClientSecret:
   repo: blog
   owner: wangbjun
   adminUser: "['wangbjun']"
