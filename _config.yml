@@ -109,9 +109,10 @@ deploy:
 #    repository: git@github.com:wangbjun/wangbjun.github.io.git
 #    branch: master
   - type: sftp
-    host: 129.153.203.146
+    host: 158.101.21.119
     user: ubuntu
+    pass: rootwbj@1234x01
     remotePath: /opt/blog
     port: 22
-    privateKey: /home/jwang/.ssh/id_rsa
+#    privateKey: /home/jwang/.ssh/id_rsa
     concurrency: 15
