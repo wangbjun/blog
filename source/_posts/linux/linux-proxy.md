@@ -93,4 +93,4 @@ PAC模式原理是其实有一个域名名单列表，上面维护了一些（�
 
 <img src="/images/2020/2020-05-30_21-55.png" />
 
-最后说一下，如果你只有socks代理，也可以通过一些软件转为http代理，具体详情可以查看我之前写的一篇文章：[科学上网之socks代理转http(s)](https://wangbjun.site/2018/linux/socks-to-http.html)
+最后说一下，如果你只有socks代理，也可以通过一些软件转为http代理，具体详情可以查看我之前写的一篇文章：[科学上网之socks代理转http(s)](https://wangbenjun.site/2018/linux/socks-to-http.html)

@@ -28,7 +28,7 @@ func main() {
 ## 1.ISO网络模型
 说到网络，不得不说一下这个模型，http本质上是一个基于tcp协议的应用层协议，而且http是超文本传输协议，注意这里的文本是指其通信协议是文本形式（具体表现就是请求头和响应头），其传输的内容并不一定是文本，可以是任何内容，图片等二进制内容都可以。
 
-<img src="https://wangbjun.site/images/old/5f6e3e27ly1g371bhib22j20da0dn0t2.jpg" />
+<img src="https://wangbenjun.site/images/old/5f6e3e27ly1g371bhib22j20da0dn0t2.jpg" />
 
 说到tcp就不得不说下socket网络编程，上面这张图基本上描述了tcp网络通信的一个流程，这和http有什么关系呢？
 

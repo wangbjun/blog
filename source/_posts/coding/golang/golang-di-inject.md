@@ -5,7 +5,7 @@ tags: Golang
 category: Golang
 ---
 
-之前写过一篇 [文章](https://wangbjun.site/2019/coding/golang/golang-di.html) 简单介绍过Go里面的依赖注入，其中提到了Facebook开源的一个依赖注入项目，地址：https://github.com/facebookgo/inject 刚好最近看一个开源项目用到这个项目，于是带着一些疑问仔细研究了一下。
+之前写过一篇 [文章](https://wangbenjun.site/2019/coding/golang/golang-di.html) 简单介绍过Go里面的依赖注入，其中提到了Facebook开源的一个依赖注入项目，地址：https://github.com/facebookgo/inject 刚好最近看一个开源项目用到这个项目，于是带着一些疑问仔细研究了一下。
 
 <!--more-->
 

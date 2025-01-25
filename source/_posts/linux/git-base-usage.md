@@ -14,7 +14,7 @@ git的基本用法很简单: 拉代码、提交变更、推代码！大部分公
 ## 1. git clone
 首先，你需要使用 **git clone** 拷贝一份项目代码到你自己的电脑，这个命令很简单就不多说了！
 ```bash
-jwang@jwang:~$ git clone https://github.com/wangbjun/git_demo.git
+jwang@jwang:~$ git clone https://github.com/wangbenjun/git_demo.git
 Cloning into 'git_demo'...
 remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.

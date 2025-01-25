@@ -65,9 +65,9 @@ Total 3 (delta 1), reused 0 (delta 0)
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 remote: 
 remote: Create a pull request for 'dev' on GitHub by visiting:
-remote:      https://github.com/wangbjun/git_demo/pull/new/dev
+remote:      https://github.com/wangbenjun/git_demo/pull/new/dev
 remote: 
-To https://github.com/wangbjun/git_demo
+To https://github.com/wangbenjun/git_demo
  * [new branch]      dev -> dev
 ```
 不过为了方便以后提交代码，我们可以使用 ```git push --set-upstream origin dev``` 命令设置上游分支，这样我们在使用 **git pull**、**git push** 命令的时候就不会报错了，它会默认跟踪dev分支。

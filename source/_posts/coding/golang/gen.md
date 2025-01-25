@@ -22,7 +22,7 @@ category: Golang
 
 所以，我基于Gin加上一些开源的组件，封装了一个不算是框架的框架，这里暂且称其为Gen，主要是便于快速开发，解决一些通用性的问题。
 
-地址：https://github.com/wangbjun/gen
+地址：https://github.com/wangbenjun/gen
 
 <!--more-->
 

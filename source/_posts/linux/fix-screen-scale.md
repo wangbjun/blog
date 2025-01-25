@@ -6,7 +6,7 @@ tags:
   - Linux
   - Ubuntu
 ---
-现在很多人都使用高分屏，比如2k、4k的显示器，在Ubuntu上面一般都需要设置缩放比率，之前我写过一篇文章介绍过 [Ubuntu 4K显示器缩放设置](https://wangbjun.site/2019/linux/ubuntu-4k-scale.html)
+现在很多人都使用高分屏，比如2k、4k的显示器，在Ubuntu上面一般都需要设置缩放比率，之前我写过一篇文章介绍过 [Ubuntu 4K显示器缩放设置](https://wangbenjun.site/2019/linux/ubuntu-4k-scale.html)
 
 但是我最近发现存在一个问题，当你电脑休眠之后再恢复，这个屏幕缩放比例就还原了，变成1了，比如我的4k显示器一般设置是1.88刚好合适，瞬间变回1那个界面UI真的酸爽。。。
 

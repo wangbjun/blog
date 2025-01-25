@@ -7,7 +7,7 @@ tags:
 category: Linux
 keywords: Linux,Ubuntu,操作系统
 ---
-这篇文章是承接上面那篇文章：[ubuntu unity桌面设置攻略](https://wangbjun.site/2021/os/ubuntu-unity-setup.html) 的后续，主要内容是讲一下我个人在使用Ubuntu桌面系统的时候常用的软件和设置。
+这篇文章是承接上面那篇文章：[ubuntu unity桌面设置攻略](https://wangbenjun.site/2021/os/ubuntu-unity-setup.html) 的后续，主要内容是讲一下我个人在使用Ubuntu桌面系统的时候常用的软件和设置。
 
 这里记录一下也是方便以后自己查阅，或者他人参考之用，仅此而已。
 
@@ -147,7 +147,7 @@ export QT_DEVICE_PIXEL_RATIO=1 && flameshot &
 
 我一般喜欢在后面2个/etc配置文件里面改，把那些语言的解释器或者编译器放到PATH里面。
 
-此外，在编程工具这块，我强烈建议使用 **JetBrains**全家桶，如果你还在纠结正版问题，可以看一下这篇文章：[如何免费使用正版Jetbrains](https://wangbjun.site/2020/os/free-jetbrains-ide.html)
+此外，在编程工具这块，我强烈建议使用 **JetBrains**全家桶，如果你还在纠结正版问题，可以看一下这篇文章：[如何免费使用正版Jetbrains](https://wangbenjun.site/2020/os/free-jetbrains-ide.html)
 
 <img src="/images/2021/2021-12-11_20-09.png" />
 
